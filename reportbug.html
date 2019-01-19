@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8>
+	<meta name=description content="">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<title>Nuxbuntu - Report Bug</title>
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/nuxbuntu-logo-png.png" />
+	<link rel="stylesheet" type="text/css" href="assets/css/reportbug.css">	
+	<link rel="stylesheet" type="text/css" href="assets/css/1.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	
+</head>
+<body>
+	<!--Start Nav Bar-->
+	<div class="nav">
+	<a href="index.html" title="Index" style="padding: 6px 20px 5px 20px;"><img src="assets/img/logo.png"  width="50px" height="50px" ></a>
+	<a href="index.html" title="Home">Home</a>
+	<a href="download.html" title="Download">Download</a>
+	<a href="galeri.html" title="Gallery">Gallery</a>
+	<a href="about.html" title="About">About</a>
+	<a href="reportbug.html" title="Report Bug" class="active">Report Bug</a>
+	</div>
+	<!--End Nav Bar-->
+	<div class="allreport">
+		<img src="assets/img/navnav.png" width="100%" style="padding-top:50px;">
+		<div class="container" style="padding-top: 10px;">
+			<form name="reportbug" method="get" accept-charset="utf-8">
+				<center>
+					<h1><b>FORM REPORT BUG</b></h1>
+					<br>
+					<br>
+				<table>
+					<tr>
+						<td style="color: white;"><b>Name</b></td>
+						<td style="color: white;"><b>:</b></td>
+						<td>
+							<input type="text" name="forname" size="55px" placeholder="Please Insert Your Name . . . . ." required><font class="req"><b> *</b></font>
+						</td>
+					</tr>
+					<tr>
+						<td style="color: white;"><b>Email</b></td>
+						<td style="color: white;"><b>:</b></td>
+						<td>
+							<input type="text" name="foremail" size="55px" placeholder="Please Insert Your Email . . . . ." required><font class="req"><b> *</b></font>
+						</td>
+					</tr>
+					<tr>
+						<td style="color: white;"><b>Release Version</b></td>
+						<td style="color: white;"><b>:</b></td>
+						<td>
+							<select name="forversion">
+								<option hidden>--- Select Release Version ---</option>
+								<option value="18.10">Nuxbuntu 18.10</option>
+								<option value="18.04.1">Nuxbuntu 18.04.1 LTS</option>
+							</select><font class="req"><b> *</b></font>
+						</td>
+					</tr>
+					<tr>
+						<td style="color: white;"><b>Subject</b></td>
+						<td style="color: white;"><b>:</b></td>
+						<td>
+							<input type="text" name="forsubject" size="30px" placeholder="Bug That You Found . . . . ." required><font class="req"><b> *</b></font>
+						</td>
+					</tr>
+					<tr>
+						<td style="color: white;"><b>Description</b></td>
+						<td style="color: white;"><b>:</b></td>
+						<td>
+							<textarea name="fordescription" rows="5" cols="55" placeholder="Please Explain About Bug That You Found . . . . ." required></textarea><font class="req"><b> *</b></font>
+						</td>
+					</tr>
+					<tr>
+						<td style="color: white;"><b>Screenshot</b></td>
+						<td style="color: white;"><b>:</b></td>
+						<td>
+							<input type="file" name="forphoto" value="picfact" onclick="noticebrowse()">
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td>
+							<button class="buttonku" name="Submit" type="submit" onclick="noticesubmit()" value="Submit">Submit</button>
+							<button style="margin-left:30px;" class="buttonku" name="Reset" type="reset" onclick="noticereset()" value="Reset">Reset</button>
+						</td>
+					</tr>																							
+				</table>
+				</center>
+			</form>
+		</div>
+	</div>
+	<!-- Start Script Notice -->
+	<script type="text/javascript">
+		function  noticereset(){
+			document.read(alert("This form will be reset !"));
+	     } 
+	     function  noticesubmit(){
+			document.read(alert("Your report will be sent automatically if all forms have been filled !"));
+	     }
+	     function noticebrowse(){
+	     	document.read(alert("Please insert a bug image or video as proof if there is one !"))
+	     }
+	</script>
+	<!-- End Script Notice -->
+<footer>
+	<div class="nux">&copy; 2018 Nuxbuntu Developer.</div>
+</footer>
+</body>
+</html>

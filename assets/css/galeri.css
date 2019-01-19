@@ -1,0 +1,44 @@
+.all{
+	width: 100%;
+	height: 950px;
+	background-color: #3d96bb;
+}
+
+.tengahkotak{
+ 	width:100%;
+    padding: 10px 213px;
+}
+
+.galeri{
+    margin: 10px;
+    border: 5px solid #0066CC;
+    float: left;
+    width: 288px;
+    background-color: white;
+    border-radius: 10px;
+    transform: none;
+    transition: transform 0.3s;
+}
+
+.galeri:hover {
+    border: 5px solid #333399;
+    transform: scale(1.1);
+}
+
+.galeri img {
+    width: 100%;
+    height: 130px;
+    border-radius: 4px;
+    transition: 5s;
+}
+
+.deskripsi {
+    padding: 1px;
+    text-align: center;
+}
+
+.judul{
+	width: 100%;
+	text-align: center;
+	color: white;
+}

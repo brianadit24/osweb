@@ -1,0 +1,289 @@
+body{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+body h1{
+	font: bold;
+}
+.nav{
+	overflow: hidden;
+	background-color: #0092DB;
+	position: fixed;
+	width: 100%;
+
+}
+.nav a{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 15px;
+	transition: background-color 0.3s ease-in-out;
+
+}
+.nav a:hover{
+	background-color: #54bad0;
+	color: #fff;
+
+}
+.active{
+	background-color: #54bad0;
+}
+.logo{
+	
+	height: 20px;
+	width: 20px;
+	float: left;
+}
+.banner{
+	width: 100%;
+	height: 680px;
+
+}
+.dw{
+	overflow: hidden;
+	width: 150px;
+	position: absolute;
+	margin-top: -200px;
+	margin-left: 600px;
+}
+.dw a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 15px;
+	transition: background-color 0.3s linear;
+	border: solid white;
+	border-radius: 30px;
+}
+.dw a:hover{
+	background-color: #fff;
+	color: #0092DB;
+}
+.down{
+	margin-top: -110px; 
+	
+}
+.bgfitur{
+	margin-top: 100px;
+	height: 500px;
+}
+.fitur{
+	width: 300px;
+	height: 300px;
+	background-color: #fff;
+	margin-top: 60px;
+	float: left;
+	margin-left: 60px;
+	border-radius: 40px;
+	border: solid #46d4e1;
+	transition: background-color 0.2s linear;
+}
+.fitur:hover{
+	background: #b7f2ff
+}
+.bgdownload{
+	width: 100%;
+	height: 700px;
+	background-color: #3d96bb;
+	
+}
+.bgmdownload{
+	width: 100%;
+	height: 800px;
+	background-color: #3d96bb;
+	
+}
+
+.download{
+	margin-top: 80px;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #255a96;
+}
+.nux{
+	padding-top: 10px;
+	margin-left: 50px;
+	font-size: 20px;
+	color: #fff;
+	float: left;
+}
+.detailm{
+	float: left;
+	width: 50%;
+	height: auto;
+	color: #fff;
+	font-size: 15px;
+}
+.dwnld{
+	overflow: hidden;
+	width: 150px;
+	position: relative;
+	margin-top: 30px;
+	margin-left: 20px;
+	float: left;
+}
+.dwnld a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 15px;
+	transition: background-color 0.3s linear;
+	border: solid white;
+	border-radius: 30px;
+}
+.dwnld a:hover{
+	background-color: #fff;
+	color: #0092DB;
+}
+.author{
+	color: #255a96;
+	font-size: 15px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+.bgkotak{
+	width: 100%;
+	height: 180px;
+	background-color: #fff;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	border-radius: 20px;
+	margin-top: 30px;
+}
+.tekskotak{
+	width: 70%;
+	float: left;
+	height: auto;
+	margin: 10px;
+}
+.dwnkotak{
+	width: 70%;
+	float: left;
+	height: auto;
+	margin: 10px;
+}
+.btndwnld{
+	overflow: hidden;
+	width: 150px;
+	position: relative;
+	margin-top: 30px;
+	margin-left: 110px;
+	float: left;
+	background-color: none;
+	border-radius: 30px;
+	border: solid #0092DB;
+}
+.btndwnld a{
+	display: block;
+	color: #0092DB;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 15px;
+	transition: background-color 0.3s linear;
+	border-radius: 30px;
+}
+.btndwnld a:hover{
+	background-color: #0092DB;
+	color: white;
+}
+
+.judul{
+	width: 100%;
+	height: 90px;
+}
+.kotaks{
+	margin: 5px;
+	height: 550px;
+	float: left;
+	margin-left: 0px;
+	width: auto;
+	border: 1px;
+	border-color: none;
+	background-color: white;
+	font-family: verdana;
+	border-radius: 5%;
+	box-shadow: none;
+	transition: box-shadow 0.2s, border-color 0.2s ;
+}
+.kotaks:hover{
+	box-shadow: 5px 5px 5px grey;
+	border-style: solid;
+	border-color: solid 1px white;
+}
+.gambar {
+     width: 200px;
+     height: 200px;
+     float: center;
+     margin-left: 70px;
+     margin-top: 50px;
+     border: 5px;
+}
+.gambar img{
+	border-radius: 90%;
+}
+.isi{
+	margin: 5px;
+	height: 100px;
+	width: 80%;
+	border: 4px;
+	font-family: verdana;
+	text-align: center;
+	font-size: 14px;
+	margin-left: 35px;
+}
+.kotaks h1:hover{
+	color: #99d0d0;
+}
+.sos {
+	width: 20px;
+	height: 20px;
+	float: center;
+	margin-left: 70px;
+}
+.sos img{
+	border-radius: 50%;
+}
+.kotakabout{
+	height: 400px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;
+	width: 330px;
+	border: 1px;
+	border-color: none;
+	background-color: white;
+	font-family: verdana;
+	border-radius: 5%;
+	box-shadow: none;
+	transition: transform 0.5s;
+}
+.kotakabout:hover{
+	box-shadow: 5px 5px 5px grey;
+	border-color: solid blue;
+	transform: scale(1.08);
+}
+.kotakabout h2{
+	text-align: center;
+	color: #000;
+}
+.bgmabout{
+	width: 100%;
+	height: 900px;
+	background-color: #3d96bb;
+}
+.bgmabout h1{
+	text-align: center;
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 50px;
+}

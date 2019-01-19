@@ -1,0 +1,40 @@
+.allreport{
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	background-color: #3d96bb;
+}
+table{
+	width: 80%;
+}
+table td{
+	padding: 15px;
+	font-size: 18px;
+}
+form h1{
+	width: 100%;
+	color: white;
+}
+
+.req{
+	color: red;
+	font-size: 20px;
+}
+.buttonku{
+	background-color: #24478f;
+	color: white;
+	border: none;
+	text-align: center;
+	cursor: pointer;
+	padding: 15px 40px;
+	display: inline-block;
+	font-size: 18px;
+	transition: transform 0.4s, background-color 0.3s;
+}
+.buttonku:hover{
+	padding: 13px 38px;
+	background-color: white;
+	color: #24478f;
+	border: 2px solid #24478f;
+	transform: scale(1.08);
+}

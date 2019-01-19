@@ -1,0 +1,57 @@
+
+.judul{
+	width: 100%;
+	height: 90px;
+}
+.kotak{
+	margin: 5px;
+	height: 550px;
+	float: left;
+	margin-left: 0px;
+	width: auto;
+	border: 1px;
+	border-color: none;
+	background-color: white;
+	font-family: verdana;
+	border-radius: 5%;
+	box-shadow: none;
+	transition: box-shadow 0.2s, border-color 0.2s ;
+}
+.kotak:hover{
+	box-shadow: 5px 5px 5px grey;
+	border-style: solid;
+	border-color: solid 1px white;
+}
+.gambar {
+     width: 200px;
+     height: 200px;
+     float: center;
+     margin-left: 70px;
+     margin-top: 50px;
+     border: 5px;
+}
+.gambar img{
+	border-radius: 90%;
+}
+.isi{
+	margin: 5px;
+	height: 100px;
+	width: 80%;
+	border: 4px;
+	font-family: verdana;
+	text-align: center;
+	font-size: 14px;
+	margin-left: 35px;
+}
+.kotak h1:hover{
+	color: #99d0d0;
+}
+.sos {
+	width: 20px;
+	height: 20px;
+	float: center;
+	margin-left: 70px;
+}
+.sos img{
+	border-radius: 50%;
+}
